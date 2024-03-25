@@ -1,0 +1,12 @@
+<view class="box">
+  <image class="bg-image" mode="aspectFill" src="/images/back.jpg"></image>
+  <!-- 返回结果 -->
+  <view wx:if="{{showModal}}">
+    <view class="modal-content">
+      <view class="result">
+          <text class="result_text2" decode="true">{{pred}}&ensp;</text> 
+          <view class="divLine"></view>
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,227 @@
+<view >
+  <view class="box1">
+        <image src='/images/title.jpg' mode="widthFix" class ='img' bindload='imgHeight'></image>
+  </view> 
+  <view class="box2">
+        <view class="box" >
+          <view>
+            <view style="margin-left: 5rpx;" class="item" bindtap="uploadImage" data-index="1">  
+                <image src="/icons/tabbar/camera1.png" mode="widthFix"></image>
+            </view>
+            <view style="margin-top: 10rpx;">
+               <text style="font-size: 25rpx;">拍照识别</text>
+            </view> 
+          </view>
+          <view>
+            <view style="margin-left: 5rpx;" class="item" >  
+              <image src="/icons/tabbar/map1.png" mode="widthFix"></image>
+            </view>
+            <view style="margin-top: 10rpx;">
+               <text style="font-size: 25rpx;">土壤分布</text>
+            </view> 
+          </view>
+          <view>
+            <view style="margin-left: 5rpx;" class="item" >  
+              <image src="/icons/tabbar/knowledge.png" mode="widthFix"></image>
+            </view>
+            <view style="margin-top: 10rpx;">
+               <text style="font-size: 25rpx;">知识科普</text>
+            </view> 
+          </view>
+          <view>
+            <view style="margin-left: 5rpx;" class="item" >  
+              <image src="/icons/tabbar/answer1.png" mode="widthFix"></image>
+            </view>
+            <view style="margin-top: 10rpx;">
+               <text style="font-size: 25rpx;">自动问答</text>
+            </view> 
+          </view>
+        </view>
+        <view class="box" style="margin-top: 40rpx;margin-bottom: 40rpx;">
+          <view bindtap="Onclick5">
+            <view style="margin-left: 5rpx;" class="item" >  
+              <image src="/icons/tabbar/type.png" mode="widthFix"></image>
+            </view>
+            <view style="margin-top: 10rpx;">
+               <text style="font-size: 25rpx;">土壤类型</text>
+            </view> 
+          </view>
+          <view bindtap="Onclick6"> 
+            <view style="margin-left: 5rpx;" class="item" >  
+              <image src="/icons/tabbar/dangerous.png" mode="widthFix"></image>
+            </view>
+            <view style="margin-top: 10rpx;" bindtap="Onclick3">
+               <text style="font-size: 25rpx;">污染危害</text>
+            </view> 
+          </view>
+          <view bindtap="Onclick7">
+            <view style="margin-left: 5rpx;" class="item">  
+              <image src="/icons/tabbar/techique.png" mode="widthFix"></image>
+            </view>
+            <view style="margin-top: 10rpx;">
+               <text style="font-size: 25rpx;">修复技术</text>
+            </view> 
+          </view>
+          <view bindtap="Onclick8">
+            <view style="margin-left: 5rpx;" class="item">  
+              <image src="/icons/tabbar/text.png" mode="widthFix"></image>
+            </view>
+            <view style="margin-top: 10rpx;">
+               <text style="font-size: 25rpx;">修复方案</text>
+            </view> 
+          </view>
+        </view>    
+  </view>
+  <view>
+    <view class="box3"></view>
+  </view>
+  <view>
+    <view class="text2">
+      <text style="margin-bottom: 20rpx;">新闻</text>
+    </view>
+    <view style=" height:270rpx;border-bottom: 1rpx grey solid ;" bindtap="Onclick4">
+        <view class="box4" style="display: flex;flex-direction: row;justify-content: space-between;">
+          <text class="text3">泉州市“十四五”土壤污染防治规划</text>
+          <view style="height: 150rpx;width:450rpx;margin-left: 15rpx;margin-top: 15rpx;"> 
+            <image src="/images/1.jpg" mode="widthFix"></image>
+          </view>
+        </view>
+        <view class="box5">
+          <text class="text4">时间：2022年3月2日</text>
+        </view>
+    </view>
+    <view style=" height: 270rpx;border-bottom: 1rpx grey solid ;">
+        <view class="box4" style="display: flex;flex-direction: row;justify-content: space-between;">
+          <text class="text3">展位预定中|第二届中国国际土壤修复治理峰会
+          </text>
+          <view style="height: 150rpx;-left: 15rpx;margin-top: 15rpx;"> 
+            <image src="https://img01.mybjx.net/news/UploadFile/202202/6378131160792799796626316.jpg" mode="widthFix"></image>
+          </view>
+        </view>
+        <view class="box5">
+          <text class="text4" >时间：2022年2月24日</text>
+        </view>
+    </view>
+    <view style=" height: 270rpx;border-bottom: 1rpx grey solid ;">
+        <view class="box4" style="display: flex;flex-direction: row;justify-content: space-between;">
+          <text class="text3">2021年土壤修复行业发展评述和2022年发展展望
+          </text>
+          <view style="height: 150rpx;width:630rpx;margin-left: 15rpx;margin-top: 15rpx;"> 
+            <image src="https://img01.mybjx.net/news/UploadFile/202202/6377982388256278776847599.jpg" mode="widthFix"></image>
+          </view>
+        </view>
+        <view class="box5">
+          <text class="text4" >时间：2022年2月7日</text>
+        </view>
+    </view>
+    <view style=" height: 270rpx;border-bottom: 1rpx grey solid ;">
+        <view class="box4" style="display: flex;flex-direction: row;justify-content: space-between;">
+          <text class="text3">四部委联合印发《北方防沙带生态保护和修复重大工程建设规划（2021—2035年）》
+          </text>
+          <view style="height: 150rpx;width:600rpx;margin-left: 15rpx;margin-top: 15rpx;"> 
+            <image src="/images/2.jpg" mode="widthFix"></image>
+          </view>
+        </view>
+        <view class="box5">
+          <text class="text4" >时间：2022年1月19日</text>
+        </view>
+    </view>
+    <view style=" height: 270rpx;border-bottom: 1rpx grey solid ;">
+        <view class="box4" style="display: flex;flex-direction: row;justify-content: space-between;">
+          <text class="text3">环境部印发《建设用地土壤污染风险管控和修复名录及修复施工相关信息公开工作指南》
+          </text>
+          <view style="height: 150rpx;margin-left: 15rpx;margin-top: 15rpx;"> 
+            <image src="/images/3.jpg" mode="widthFix"></image>
+          </view>
+        </view>
+        <view class="box5">
+          <text class="text4" >时间：2022年12月25日</text>
+        </view>
+    </view>
+    <view style="height: 270rpx;border-bottom: 1rpx grey solid ;">
+        <view class="box4" style="display: flex;flex-direction: row;justify-content: space-between;">
+          <text class="text3">山东：关于进一步做好建设用地土壤污染风险管控和修复工作的通知 
+          </text>
+          <view style="height: 150rpx;margin-left: 15rpx;margin-top: 15rpx;"> 
+            <image src="/images/4.jpg" mode="widthFix"></image>
+          </view>
+        </view>
+        <view class="box5">
+          <text class="text4" >时间：2022年12月6日</text>
+        </view>
+    </view>
+    <view style=" height: 270rpx;border-bottom: 1rpx grey solid ;">
+        <view class="box4" style="display: flex;flex-direction: row;justify-content: space-between;" bindtap="Onclickimp1">
+          <text class="text3">武汉市“十四五”土壤生态环境规划（征求意见稿）
+          </text>
+          <view style="height: 150rpx;margin-left: 15rpx;margin-top: 15rpx;"> 
+            <image src="/images/5.jpg" mode="widthFix"></image>
+          </view>
+        </view>
+        <view class="box5">
+          <text class="text4" >时间：2022年12月1日</text>
+        </view>
+    </view>
+    <view style=" height: 270rpx;border-bottom: 1rpx grey solid ;">
+        <view class="box4" style="display: flex;flex-direction: row;justify-content: space-between;">
+          <text class="text3">专家解读|钟斌：坚持稳中求进 深入打好净土保卫战——“十四五”推进土壤污染防治工作的重点举措
+          </text>
+          <view style="height: 150rpx;margin-left: 15rpx;margin-top: 15rpx;"> 
+            <image src="/images/6.jpg" mode="widthFix"></image>
+          </view>
+        </view>
+        <view class="box5">
+          <text class="text4" >时间：2022年11月17日</text>
+        </view>
+    </view>
+    <view style="height: 270rpx;border-bottom: 1rpx grey solid ;" bindtap="Onclickimp">
+        <view class="box4" style="display: flex;flex-direction: row;justify-content: space-between;">
+          <text class="text3">堆肥在土壤修复与质量提升的应用现状与展望
+          </text>
+          <view style="height: 150rpx;margin-left: 15rpx;margin-top: 15rpx;"> 
+            <image src="https://img01.mybjx.net/news/UploadFile/202111/6377161799678167159338047.jpg" mode="widthFix"></image>
+          </view>
+        </view>
+        <view class="box5">
+          <text class="text4" >时间：2021年11月4日</text>
+        </view>
+    </view>
+    <view style="height: 270rpx;border-bottom: 1rpx grey solid ;" >
+        <view class="box4" style="display: flex;flex-direction: row;justify-content: space-between;">
+          <text class="text3">大风不断！今年来14部生态环保顶层文件已亮相
+          </text>
+          <view style="height: 150rpx;margin-left: 15rpx;margin-top: 15rpx;"> 
+            <image src="https://img01.mybjx.net/news/UploadFile/202112/6377465476402056799220919.jpg" mode="widthFix"></image>
+          </view>
+        </view>
+        <view class="box5">
+          <text class="text4" >时间：2021年11月3日</text>
+        </view>
+    </view>
+    <view style="height: 270rpx;border-bottom: 1rpx grey solid ;" >
+        <view class="box4" style="display: flex;flex-direction: row;justify-content: space-between;">
+          <text class="text3">第二届全国土壤修复大会召开 中科鼎实与业界专家共商土壤修复大计
+          </text>
+          <view style="height: 150rpx;margin-left: 15rpx;margin-top: 15rpx;"> 
+            <image src="https://img01.mybjx.net/news/UploadFile/202110/6377111719460447678793214.jpg" mode="widthFix"></image>
+          </view>
+        </view>
+        <view class="box5">
+          <text class="text4" >时间：2021年10月29日</text>
+        </view>
+    </view>
+    <view style="height: 270rpx;border-bottom: 1rpx grey solid ;" >
+        <view class="box4" style="display: flex;flex-direction: row;justify-content: space-between;">
+          <text class="text3">关于长江经济带土壤环境与生态修复现状的研究与展望</text>
+          <view style="height: 150rpx;margin-left: 15rpx;margin-top: 15rpx;"> 
+            <image src="https://img01.mybjx.net/news/UploadFile/202110/6377111726372353732944624.jpg" mode="widthFix"></image>
+          </view>
+        </view>
+        <view class="box5">
+          <text class="text4">时间：2021年10月27日</text>
+        </view>
+    </view>
+  </view>
+</view>
+
+

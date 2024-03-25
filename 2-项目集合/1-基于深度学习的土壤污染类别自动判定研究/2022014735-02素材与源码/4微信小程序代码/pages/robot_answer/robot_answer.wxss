@@ -1,0 +1,183 @@
+page {
+    height: 100%;
+    background-color: #f3f4f6;
+  }
+   
+  .chating-wrapper {
+    width: 100%;
+    min-height: 100%;
+    position: relative;
+    box-sizing: border-box;
+    background: #f6f6f6;
+  }
+   
+  .record-chatting-item {
+    width: 100%;
+    padding: 28rpx 23rpx 0;
+    box-sizing: border-box;
+  }
+   
+  .record-chatting-item-img, .open-data-userAvatarUrl {
+    width: 70rpx;
+    height: 70rpx;
+    border-radius: 100%;
+    display: block;
+    overflow: hidden;
+  }
+   
+  .other {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    color: #222;
+  }
+   
+  .other .record-chatting-item-text {
+    margin-left: 20rpx;
+    margin-right: 0;
+  }
+   
+  .self {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    color: #fff;
+  }
+   
+  .record-chatting-item-text {
+    width: 500rpx;
+    border-radius: 8rpx;
+    background-color: #fff;
+    padding: 26rpx;
+    box-sizing: border-box;
+    word-wrap: break-word;
+    overflow: hidden;
+    font-size: 28rpx;
+    line-height: 42rpx;
+    box-shadow: 0 0 8rpx #dedede;
+  }
+  .qst-li {
+    font-size: 28rpx;
+    line-height: 1.1;
+    padding: 16rpx 6rpx;
+    border-bottom: 1rpx solid #d9d9d9;
+    line-height: 20px;
+  }
+   
+  .qst-li:last-child {
+    border: none;
+  }
+   
+  /*底部输入框*/
+   
+  .chatinput-wrapper {
+    width: 100%;
+    background-color: #fff;
+    border-bottom: 1rpx solid gray;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 92rpx;
+  }
+   
+  .chatinput-img {
+    width: 59rpx;
+    height: 59rpx;
+    border-radius: 100%;
+  }
+
+  .chatinput-content {
+    width: 100%;
+    height: 92rpx;
+    box-sizing: border-box;
+    padding: 0 rpx 24 rpx;
+  }
+   
+  .chatinput-inputOut {
+    width: 500rpx;
+    height: 60rpx;
+    position: relative;
+    box-sizing: border-box;
+    padding-left: 20rpx;
+    padding-right: 20rpx;
+    background: #f0f0f0;
+    border-radius: 60rpx;
+  }
+   
+  .chatinput-inputmask {
+    width: 490rpx;
+    height: 60rpx;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 60rpx;
+    z-index: 2;
+  }
+   
+  .chatinput-input {
+    width: 100%;
+    height: 60rpx;
+    border-radius: 60rpx;
+    border: none;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 28rpx;
+    color: #212121;
+    background: #f0f0f0;
+  }
+   
+  .chatinput-sendOut {
+    width: 90rpx;
+    height: 60rpx;
+    position: relative;
+  }
+   
+  .chatinput-sendmask {
+    width: 90rpx;
+    height: 60rpx;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 60rpx;
+    color:white;
+    background: #d0d0d0;
+    line-height: 60rpx;
+    font-size: 26rpx;
+  }
+   
+  .chatinput-send {
+    width: 90rpx;
+    height: 60rpx;
+    line-height: 60rpx;
+    text-align: center;
+    border-radius: 60rpx;
+    color: BLACK;
+    font-size: 26rpx;
+    background-color: white;
+  }
+   
+  .flex {
+    display: flex;
+  }
+   
+  .alignC {
+    align-items: center;
+  }
+   
+  .flexSb {
+    justify-content: space-between;
+  }
+   
+  .self .record-chatting-item-text {
+    background: #8aad84;
+    margin-right: 20rpx;
+    margin-left: 0;
+  }
+   
+  .mb16{
+    margin-bottom: 16rpx;
+  }
+   
+  .record-wrapper{
+    padding-bottom: 122rpx;
+  }

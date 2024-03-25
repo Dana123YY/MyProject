@@ -1,0 +1,29 @@
+<!--pages/newsdetail2/newsdetail2.wxml-->
+<view class="allview">
+    <view class='title1'>泉州市“十四五”土壤污染防治规划</view>
+    <view style="padding-left: 20rpx;">
+      <view>2021-12-01 10:23</view>
+      <view style="padding-top: 10rpx;">来源：北极星环境修复网</view>
+    </view>
+    <view class="alltext">
+      泉州市生态环境局印发了《泉州市“十四五”土壤污染防治规划》，聚焦重点区域、重点行业和重点污染物，强化土壤污染源头管控，防范工矿企业用地新增土壤污染，全面推进耕地分类管理，深入实施建设用地准入管理，建立健全地方法规标准体系和监测网络，加强监管能力建设。形成5项重点任务，具体包括：一是推进“精准治理”，构建土壤污染防控治体系；二坚持“源头减量”，推动土壤污染源头综合防控；三是强化“土尽其用”，实施农用地科学分类管理；四是注重“永续利用”,实行建设用地全生命周期管控；五是创新“科学护土”，推进土壤生态环境智慧监管。详情如下：
+    </view>
+    <view style="display: flex;flex-direction: row;justify-content: center;">
+      <image src="https://img01.mybjx.net/news/UploadFile/202203/6378183002105325434875022.png" mode="widthFix"></image>
+    </view>
+    <view style="display: flex;flex-direction: row;justify-content: center;">
+      <image src="https://img01.mybjx.net/news/UploadFile/202203/6378183002488058093471947.png" mode="widthFix"></image>
+    </view>
+    <view style="display: flex;flex-direction: row;justify-content: center;">
+      <image src="https://img01.mybjx.net/news/UploadFile/202203/6378183001990416085562054.png" mode="widthFix"></image>
+    </view>
+    <view style="display: flex;flex-direction: row;justify-content: center;">
+      <image src="https://img01.mybjx.net/news/UploadFile/202203/6378183002262539459831917.png" mode="widthFix"></image>
+    </view>
+    <view style="display: flex;flex-direction: row;justify-content: center;">
+      <image src="https://img01.mybjx.net/news/UploadFile/202203/6378183002334645684973543.png" mode="widthFix"></image>
+    </view>
+    <view style="display: flex;flex-direction: row;justify-content: center;">
+      <image src="https://img01.mybjx.net/news/UploadFile/202203/6378183002318744516259156.png" mode="widthFix"></image>
+    </view>
+</view>

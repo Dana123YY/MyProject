@@ -1,0 +1,43 @@
+<view class="allview">
+  <image class="bg-image" mode="aspectFill" src="/images/back2.jpg"></image>
+  <view class='title1'>土壤修复危害</view>
+  <view class="title2">土壤污染具有隐蔽性和滞后性</view> 
+  <view class="alltext">
+    土壤污染不同于大气、水、废弃物污染等问题，难以直观发现。往往要对土壤样品分析化验和进行农作物的残留检测，因此，土壤污染从产生污染到出现问题通常会滞后较长的时间。如日本的“痛痛病”经过了10～20年之后才被人们所认识。
+  </view>
+  <view class="title2">土壤污染具有累积性</view> 
+  <view class="alltext"> 
+  土壤中的污染物不像在大气和水体中那样容易扩散和稀释，易不断积累而超标，同时土壤污染具有很强的地域性。
+  </view>
+  <view class="title2">土壤污染具有不可逆转性</view> 
+ <view class="alltext">
+    重金属对土壤的污染基本上是一个不可逆转的过程，许多有机化学物质的污染也需要较长的时间才能降解。譬如：被某些重金属污染的土壤可能要100～200年时间才能够恢复。
+  </view>
+  <view class="title2">土壤污染难治理</view> 
+  <view class="alltext">
+    如果大气和水体受到污染，切断污染源之后通过稀释作用和自净化作用也有可能使污染问题逆转，但是积累在污染土壤中的难降解污染物则很难靠稀释作用和自净化作用来消除。
+  </view>
+  <view class="title2">土壤污染治理见效慢</view> 
+  <view class="alltext">
+    土壤污染发生后，仅靠切断污染源的方法往往很难恢复，有时要靠换土、淋洗土壤等方法才能解决问题，其他治理技术可能见效较慢。因此，治理污染土壤成本高、治理周期较长。
+  </view>
+  <view class="box3"></view>
+  <view class='title1'>土壤污染的危害</view>
+  <view class="title2">导致严重的直接经济损失</view> 
+  <view class="alltext">
+   仅以土壤重金属污染为例，全国每年就因重金属污染而减产粮食1000多万吨，另外被重金属污染的粮食每年也多达1200万吨，合计经济损失至少200亿元。
+  </view>
+  <view class="title2">导致生物品质不断下降</view> 
+  <view class="alltext">
+    土壤污染除影响食物的卫生品质外，也明显地影响到农作物的其他品质。有些地区污灌已经使得蔬菜的味道变差，易烂，甚至出现难闻的异味；农产品的储藏品质和加工品质也不能满足深加工的要求。
+  </view>
+  <view class="title2">危害人体健康</view> 
+  <view class="alltext">
+    土壤污染会使污染物在作物体中积累，并通过食物链富集到人体和动物体中，危害人畜健康，引发癌症和其他疾病等。
+  </view>
+  <view class="title2">导致生态环境问题</view> 
+  <view class="alltext">
+    土地受到污染后，含重金属浓度较高的污染表土容易在风力和水力的作用下分别进入到大气和水体中，导致大气污染、地表水污染、地下水污染和生态系统退化等其他次生生态环境问题。
+  </view>
+  <view class="box3"></view>
+  </view>

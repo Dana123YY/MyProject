@@ -1,0 +1,87 @@
+{
+  "pages": [
+    "pages/camera/camera",
+    "pages/soultion/soultion",
+    "pages/all_item/all_item",
+    "pages/index/index",
+    "pages/detail/detail",
+    "pages/detail1/detail1",
+    "pages/result/result",
+    "pages/detail2/detail2",
+    "pages/detail3/detail3",    
+    "pages/detail6/detail6",
+    "pages/detail5/detail5",
+    "pages/knowledge/knowledge",
+    "pages/robot_answer/robot_answer",
+    "pages/newsdetail/newsdetail",
+    "pages/newsdetail1/newsdetail1",
+    "pages/s1/s1",
+    "pages/s2/s2",
+    "pages/s3/s3",
+    "pages/s4/s4",
+    "pages/s5/s5",
+    "pages/s6/s6",
+    "pages/s7/s7",
+    "pages/s8/s8",
+    "pages/s9/s9",
+    "pages/s10/s10",
+    "pages/s101/s101",
+    "pages/s11/s11",
+    "pages/s12/s12",
+    "pages/s13/s13",
+    "pages/s14/s14",
+    "pages/s15/s15",
+    "pages/s16/s16",
+    "pages/s18/s18",
+    "pages/mountain/mountain",
+    "pages/newsdetail2/newsdetail2"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark", 
+    "navigationBarBackgroundColor":"#FFFFFF",
+    "navigationBarTitleText":"绿洲",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#99CCFF",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/camera/camera",
+        "text": "首页",
+        "iconPath": "./icons/tabbar/home.png",
+        "selectedIconPath": "./icons/tabbar/homed.png"
+      },
+      {
+        "pagePath": "pages/all_item/all_item",
+        "text": "土壤概述",
+        "iconPath": "./icons/tabbar/dict.png",
+        "selectedIconPath": "./icons/tabbar/dicted.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "土壤分布",
+        "iconPath": "./icons/tabbar/map.png",
+        "selectedIconPath": "./icons/tabbar/maped.png"
+      },
+      {
+        "pagePath": "pages/knowledge/knowledge",
+        "text": "知识科普",
+        "iconPath": "./icons/tabbar/news.png",
+        "selectedIconPath": "./icons/tabbar/newsed.png"
+      },
+      { 
+        "pagePath": "pages/robot_answer/robot_answer",
+        "text": "自动问答",
+        "iconPath": "./icons/tabbar/answer.png",
+        "selectedIconPath": "./icons/tabbar/answered.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+
+}

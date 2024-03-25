@@ -1,0 +1,23 @@
+/* pages/newsdetail2/newsdetail2.wxss */
+/* pages/newsdetail1/newsdetail1.wxss */
+.title1{
+  display: flex;
+  justify-content: center;
+  font-size:40rpx;
+  font-weight: 600;
+  padding-top: 25rpx;
+  padding-bottom: 15rpx;
+  padding-left: 20rpx;
+  padding-right: 20rpx;
+}
+.allview{
+  padding: 0rpx 0rpx 0rpx 0rpx;
+  box-sizing: border-box;
+}
+.alltext{
+  line-height:200%;
+  text-indent: 2em;
+  font-size:35rpx;
+  padding-left:  30rpx;
+  padding-right: 30rpx;
+}

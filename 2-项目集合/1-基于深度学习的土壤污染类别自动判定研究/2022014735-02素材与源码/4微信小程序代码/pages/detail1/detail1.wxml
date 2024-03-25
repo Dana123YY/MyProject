@@ -1,0 +1,122 @@
+<view>
+  <image class="bg-image" mode="aspectFill" src="/images/back5.jpg"></image>
+  <view class="box">
+    <image src="/images/back4.jpg" mode="widthFix" class="img0"></image>
+  </view>
+  <view class="border0">  
+    <view class="border1"  bindtap="Onclick1">
+      <image src="https://img2.baidu.com/it/u=1298329227,3956811406&fm=253&fmt=auto&app=138&f=JPEG?w=640&h=478" mode="aspectFit" class="img1">
+      </image>
+      <text class="text0">砂质土</text>
+    </view>
+    <view class="border2"  bindtap="Onclick2">
+      <image src="https://img1.baidu.com/it/u=3638138529,1606598697&fm=253&fmt=auto&app=138&f=JPEG?w=320&h=240" mode="aspectFit" class="img2">
+      </image>
+      <text class="text0">黏质土</text>
+    </view>
+  </view>
+  <view class="border0">  
+    <view class="border1"  bindtap="Onclick101">
+      <image src="https://img0.baidu.com/it/u=3247970503,138493486&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=375" mode="aspectFit" class="img1">
+      </image>
+      <text class="text0">壤土</text>
+    </view>
+    <view class="border2"  bindtap="Onclick3">
+      <image src="https://img2.baidu.com/it/u=577845212,1669555934&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=376" mode="aspectFit" class="img1">
+      </image>
+      <text class="text0">砖红壤</text>
+    </view>
+  </view>
+  <view class="border0">  
+    <view class="border1"  bindtap="Onclick4">
+      <image src="https://img1.baidu.com/it/u=2670229461,3942953763&fm=253&fmt=auto&app=120&f=PNG?w=500&h=294" mode="aspectFit" class="img2">
+      </image>
+      <text class="text0">赤红壤</text>
+    </view>
+    <view class="border2"  bindtap="Onclick5">
+      <image src="https://img1.baidu.com/it/u=2480063350,3423953518&fm=253&fmt=auto&app=138&f=JPEG?w=804&h=500" mode="aspectFit" class="img2">
+      </image>
+      <text class="text0">红壤</text>
+    </view>
+  </view>
+  <view class="border0">  
+    <view class="border1"  bindtap="Onclick6">
+      <image src="https://img0.baidu.com/it/u=4180688415,4097909578&fm=26&fmt=auto" mode="aspectFit" class="img1">
+      </image>
+      <text class="text0">黄壤</text>
+    </view>
+    <view class="border2"  bindtap="Onclick7">
+      <image src="https://img0.baidu.com/it/u=680079566,241788430&fm=253&fmt=auto&app=138&f=JPEG?w=667&h=500" mode="aspectFit" class="img1">
+      </image>
+      <text class="text0">黄棕壤</text>
+    </view>
+  </view>
+  <view class="border0">  
+    <view class="border1"  bindtap="Onclick8">
+      <image src="https://img1.baidu.com/it/u=1630892340,2046784393&fm=26&fmt=auto" mode="aspectFit" class="img2">
+      </image>
+      <text class="text0">棕壤</text>
+    </view>
+    <view class="border2"  bindtap="Onclick9">
+      <image src="https://img2.baidu.com/it/u=2684383170,2910894107&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=323" mode="aspectFit" class="img2">
+      </image>
+      <text class="text0">暗棕壤</text>
+    </view>
+  </view>
+  <view class="border0">  
+    <view class="border1" bindtap="Onclick10">
+      <image src="https://img0.baidu.com/it/u=2020909407,3071046761&fm=253&fmt=auto&app=138&f=PNG?w=887&h=500" mode="aspectFit" class="img2">
+      </image>
+      <text class="text0">寒棕壤</text>
+    </view>
+    <view class="border2" bindtap="Onclick11">
+      <image src="https://img2.baidu.com/it/u=2434147082,1279791411&fm=253&fmt=auto&app=120&f=JPEG?w=599&h=335" mode="aspectFit" class="img2">
+      </image>
+      <text class="text0">褐土</text>
+    </view>
+  </view>
+  <view class="border0">  
+    <view class="border1" bindtap="Onclick12">
+      <image src="https://img2.baidu.com/it/u=3908105328,3400230833&fm=253&fmt=auto&app=138&f=JPEG?w=268&h=180" mode="aspectFit" class="img2">
+      </image>
+      <text class="text0">黑钙土</text>
+    </view>
+    <view class="border2" bindtap="Onclick13">
+      <image src="https://img2.baidu.com/it/u=312842775,175994410&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=323" mode="aspectFit" class="img2">
+      </image>
+      <text class="text0">栗钙土</text>
+    </view>
+  </view>
+  <view class="border0">  
+    <view class="border1" bindtap="Onclick14">
+      <image src="https://img2.baidu.com/it/u=2134480377,436793713&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=333" mode="aspectFit" class="img2">
+      </image>
+      <text class="text0">棕钙土</text>
+    </view>
+    <view class="border2" bindtap="Onclick15">
+      <image src="https://img2.baidu.com/it/u=2645642845,2854166292&fm=253&fmt=auto&app=138&f=JPEG?w=404&h=284" mode="aspectFit" class="img2">
+      </image>
+      <text class="text0">黑垆土</text>
+    </view>
+  </view>
+  <view class="border0">  
+    <view class="border1" bindtap="Onclick16">
+      <image src="https://img2.baidu.com/it/u=4156491090,4260479995&fm=253&fmt=auto&app=138&f=JPEG?w=650&h=420" mode="aspectFit" class="img2">
+      </image>
+      <text class="text0">荒漠土</text>
+    </view>
+    <view class="border2" bindtap="Onclickm">
+      <image src="https://img1.baidu.com/it/u=4129464341,2706315224&fm=253&fmt=auto&app=138&f=JPEG?w=640&h=427" mode="aspectFit" class="img2">
+      </image>
+      <text class="text0">高山草甸土</text>
+    </view>
+
+  </view>
+  <view class="border0">  
+    <view class="border1"  bindtap="Onclick18">
+      <image src="https://img1.baidu.com/it/u=3311465627,1095642263&fm=26&fmt=auto" mode="aspectFit" class="img2">
+      </image>
+      <text class="text0">高山漠土</text>
+    </view>
+  </view>
+</view>
