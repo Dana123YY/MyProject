@@ -1,0 +1,104 @@
+.bg-image
+{ 
+  width : 100%;
+  height : 100%;  
+  position: fixed;  
+  z-index: -1;  
+}
+.main {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -99;
+  background-position: center bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  filter:blur(10px);
+  z-index: -1;
+}
+
+
+/* for custom modal */
+
+.modal-mask {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgb(224, 224, 224);
+  opacity: 0.2;
+  overflow: hidden;
+  z-index: 9000;
+  color: #fff;
+  padding-bottom: 200rpx;
+}
+
+.modal-content {
+  position: absolute;
+  bottom: 580rpx;
+  left: 50rpx;
+  z-index: 9500;
+  width: 650rpx;
+  height: 450rpx;
+  overflow: hidden;
+  border: 3rpx solid #336699;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 35rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+  /* box-shadow:-2px 6rpx 8rpx rgba(241, 241, 241, 0.5); */
+}
+
+
+.result {
+  position: relative;
+  height: auto;
+  overflow: visible;
+}
+
+
+
+.result .result_text2 {
+  position: relative;
+  font-size: 50rpx;
+  font-weight:900;
+  color: #000;
+}
+
+/*分割线样式*/
+.divLine{
+  position: relative;
+  top: 50rpx;
+  background: rgb(203, 236, 229);
+  width: 100%;
+  height: 3rpx;
+  opacity: 0.8;
+}
+
+.btn {
+  position: relative;
+  display: inline;
+  top: -35rpx;
+  left: 510rpx;
+  color: rgba(203, 236, 230, 0.9);
+  font-size: 33rpx;
+  font-weight: 400;
+  font-family: "微软雅黑";
+  /* border: solid 1rpx rgb(150, 220, 248); */
+  /* background: rgba(152, 230, 250, 0.3); */
+}
+
+.hover_btn {
+  color: #2FDB91;
+  text-decoration: underline;
+}

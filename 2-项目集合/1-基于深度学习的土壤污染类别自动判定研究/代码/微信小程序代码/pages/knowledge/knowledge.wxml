@@ -1,0 +1,273 @@
+<!--pages/knowledge/knowledge.wxml-->
+<view class="container">
+
+<view class="navbar">
+  <text wx:for="{{navbar}}" data-idx="{{index}}" class="item {{currentTab==index ? 'active' : ''}}" wx:key="unique" bindtap="navbarTap">{{item}}</text>
+</view>
+
+<view hidden="{{currentTab!==0}}" class="content1">
+  <view class="ques" bindtap="questap1" id="ques1" wx:if="{{ques1}}"> 
+  <text>
+    Q1:  土壤是什么？
+  </text>
+  </view>
+
+  <view class="ques_re" bindtap="questap1_rt" id="ques1" wx:if="{{ques1_re}}"> 
+  <text>
+    Q1:  土壤是什么？
+  </text>
+  </view>
+ 
+  <view class="anwser" wx:if="{{ques1_re}}">
+  <view class="answer_part">
+  <text>土壤是指地球表面的一层疏松的物质，由各种颗粒状矿物质、有机物质、水分、空气、微生物等组成，能生长植物。土壤由岩石风化而成的矿物质、动植物、微生物残体腐解产生的有机质、土壤生物（固相物质）以及水分（液相物质）、空气（气相物质）、氧化的腐殖质等组成。
+  </text>
+  </view>
+  </view>
+
+
+
+  <view class="ques" bindtap="questap2" wx:if="{{ques2}}" id="ques2"> 
+  <text>
+    Q2:  土壤肥力的物质基础是什么？
+  </text>
+  </view>
+
+  <view class="ques_re" bindtap="questap2_rt" wx:if="{{ques2_re}}"> 
+  <text>
+    Q2:  土壤肥力的物质基础是什么？
+  </text>
+  </view>
+  <view class="anwser" wx:if="{{ques2_re}}">
+  <view class="answer_part">
+  <text>固体物质包括土壤矿物质、有机质和微生物通过光照抑菌灭菌后得到的养料等。液体物质主要指土壤水分。气体是存在于土壤孔隙中的空气。土壤中这三类物质构成了一个矛盾的统一体。它们互相联系，互相制约，为作物提供必需的生活条件，是土壤肥力的物质基础。
+  </text>
+  </view>
+  </view>
+
+  <view class="ques" bindtap="questap3" wx:if="{{ques3}}" id="ques3"> 
+  <text>
+    Q3:  土壤里的物质有什么？
+  </text>
+  </view>
+
+  <view class="ques_re" bindtap="questap3_rt" wx:if="{{ques3_re}}"> 
+  <text>
+    Q3:  土壤里的物质有什么？
+  </text>
+  </view>
+  <view class="anwser" wx:if="{{ques3_re}}" style="height: 80px;">
+  <view class="answer_part" >
+  <text style="height: 70px;">土壤里的物质可以概括为三个部分：固体部分、液体部分和气体部分。除此之外，土壤中还有各种动物、植物和微生物。
+  </text>
+  </view>
+  </view>
+
+  <view class="ques" bindtap="questap4" wx:if="{{ques4}}" id="ques4"> 
+  <text>
+    Q4:  土壤结构有哪些？
+  </text>
+  </view>
+
+  <view class="ques_re" bindtap="questap4_rt" wx:if="{{ques4_re}}"> 
+  <text>
+    Q4:  土壤结构有哪些？
+  </text>
+  </view>
+  <view class="anwser" wx:if="{{ques4_re}}" style="height: 135px;">
+  <view class="answer_part">
+  <text>土壤颗粒通过不同的堆积方式相互粘结而形成土壤结构。土壤结构的类型有片状的、块状的、柱状的和小颗粒粒状的。在旱地表层常出现片状的土壤结皮和板结层。有趣的是在荒漠、半荒漠地区土壤表面由于苔藓、地衣、地钱、真菌、细菌等低等植物的生长而形成的一个复合的生物—土壤片状结构，又称为荒漠生物结皮，是沙地固定状况的重要标志。
+  </text>
+  </view>
+  </view>
+
+  <view class="ques" bindtap="questap5" wx:if="{{ques5}}" id="ques5"> 
+  <text>
+    Q5:  什么样的土壤是肥沃的土？
+  </text>
+  </view>
+
+  <view class="ques_re" bindtap="questap5_rt" wx:if="{{ques5_re}}"> 
+  <text>
+    Q5:  什么样的土壤是肥沃的土？
+  </text>
+  </view>
+  <view class="anwser" wx:if="{{ques5_re}}" style="height: 145px;">
+  <view class="answer_part" >
+  <text style="height: 150px;">俗话说：“庄稼既怕草，更怕坷垃咬。”在农业生产上最好的土壤结构体是团粒结构，它是近似球形较疏松多孔的小土团，直径为0.25～10mm之间，直径0.25mm的称为微团粒。团粒结构一般在耕层较多，群众称为“蚂蚁蛋”、“米糁子”。团粒结构数量多少和质量好坏在一定程度上反映了土壤肥力的水平。在水田中微团粒的数量比团粒的数量更重要，越是肥沃稻田土壤微团粒数量越多。
+  </text>
+  </view>
+  </view>
+
+  <view class="ques" bindtap="questap6" wx:if="{{ques6}}" id="ques6"> 
+  <text>
+    Q6:  土壤的形成因素是什么？
+  </text>
+  </view>
+
+  <view class="ques_re" bindtap="questap6_rt" wx:if="{{ques6_re}}"> 
+  <text>
+    Q6:  土壤的形成因素是什么？
+  </text>
+  </view>
+  <view class="anwser" wx:if="{{ques6_re}}" style="height: 90px;">
+  <view class="answer_part">
+  <text style="height: 70px;">土壤并非生来就具有肥力特征，能够生长绿色植物的。跟生物发育一样，土壤发育也有一系列的过程。其中，母质、气候、生物、地形、时间是土壤形成的五大关键成土因素。
+  </text>
+  </view>
+  </view>
+
+  <view class="ques" bindtap="questap7" wx:if="{{ques7}}" id="ques7"> 
+  <text>
+    Q7:  土壤年龄怎么看？
+  </text>
+  </view>
+
+  <view class="ques_re" bindtap="questap7_rt" wx:if="{{ques7_re}}"> 
+  <text>
+    Q7:  土壤年龄怎么看？
+  </text>
+  </view>
+  <view class="anwser" wx:if="{{ques7_re}}" style="height: 305px;">
+  <view class="answer_part">
+  <text style="height: 310px;">土壤发育时间的长短称为土壤年龄。从土壤开始形成时起直到目前为止的年数称为绝对年龄。由土壤的发育阶段和发育程度所决定的土壤年龄称为相对年龄。在适宜的条件下，成土母质首先在生物的作用下进入幼年土壤发育阶段，这一阶段的特点是土体很薄，有机质在表土积累，化学-生物风化作用与淋溶作用很弱，剖面分化为A层和C层，土壤的性质在很大程度上还保留着母质的特征。随着B层的形成和发育，土壤进入成熟阶段，这一阶段有机质积累旺盛，易风化的矿物质强烈分解，在淀积层中粘粒大量积聚，土壤肥力和自然生产力均达到最高水平。经过相当长的时间以后，成熟土壤出现强烈的剖面分化，出现E层，并使A层和B层的特征发生显著差异，有机质累积过程减弱，矿物质分解进入最后阶段，只有抗风化最强的矿物残留在土体中，淀积层中粘粒积聚形成粘盘，土壤进入老年阶段，这一阶段土壤的肥力和自然生产力都明显降低。
+  </text>
+  </view>
+  </view>
+  
+  <view class="ques" bindtap="questap8" wx:if="{{ques8}}" id="ques8"> 
+  <text>
+    Q8:  有哪些土壤方面的书籍或期刊？
+  </text>
+  </view>
+
+  <view class="ques_re" bindtap="questap8_rt" wx:if="{{ques8_re}}"> 
+  <text>
+    Q8:  有哪些土壤方面的书籍或期刊？
+  </text>
+  </view>
+  <view class="anwser" wx:if="{{ques8_re}}" style="height: 70px;">
+  <view class="answer_part">
+  <text style="height: 60px;">农业科学环境学报、土壤学报、生态学杂志、水土保持学报、生态学报、环境学报、土壤科学数据库等。
+  </text>
+  </view>
+  </view>
+  
+  <view class="ques" bindtap="questap9" wx:if="{{ques9}}" id="ques9"> 
+  <text>
+    Q9:  我国的土壤中元素含量如何？
+  </text>
+  </view>
+
+  <view class="ques_re" bindtap="questap9_rt" wx:if="{{ques9_re}}"> 
+  <text>
+    Q9:  我国的土壤中元素含量如何？
+  </text>
+  </view>
+  <view class="anwser" wx:if="{{ques9_re}}" style="height:135px;">
+  <view class="answer_part">
+  <text style="height: 130px;">氮：我国土壤耕层中的全氮含量大概变动在0.05%～0.25%。其中东北地区的黑土是我国土壤平均含氮量最高的土壤，一般为0.15%～0.35%。而西北黄土高原和华北平原的土壤含氮量较低，一般为0.05%～0.1%。在条件基本相近的情况下，水田的含氮量往往高于旱地土壤。我国绝大部分土壤施用氮肥都有一定的增产效果。
+  </text>
+  </view>
+  </view>
+  <view class="anwser" wx:if="{{ques9_re}}">
+  <view class="answer_part">
+  <text>磷：土壤中大部分磷都是无机状态（50%～70%），只有30%～50%是以有机磷形态存在的。我国北方土壤中的无机磷主要是磷酸钙盐，而南方主要是磷酸铁、铝盐类。其中有相当大的部分是被氧化铁胶膜包裹起来的磷酸铁铝，称为闭蓄态磷。但是当土壤全磷含量低于0.03%时，土壤往往缺磷。
+  </text>
+  </view>
+  </view>
+  <view class="anwser" wx:if="{{ques9_re}}" style="height: 135px;">
+  <view class="answer_part">
+  <text style="height: 140px;">钾：土壤中钾全部以无机形态存在，而且其数量远远高于氮磷。我国土壤的全钾含量也大体上是南方较低，北方较高。南方的砖红壤，土壤全钾含量平均只有0.4%左右，华中、华东的红壤则平均为0.9%，而我国北方包括华北平原、西北黄土高原以至东北黑土地区，土壤全钾量一般都在1.7%左右。因此，缺钾主要在南方，北方已开始出现缺钾现象。
+  </text>
+  </view>
+  </view>
+  <view class="anwser" wx:if="{{ques9_re}}" style="height: 195px;">
+  <view class="answer_part">
+  <text style="height: 200px;">无机盐：土壤中的微量元素大部分是以硅酸盐、氧化物、硫化物、碳酸盐等无机盐形态存在。在土壤溶液中可有一部分微量元素以有机络合态存在。通常把水溶液或交换态的微量元素看作是对作物有效的。土壤中微量元素供应不足的一个原因是土壤本身含量过低，另一种原因是含量并不低，甚至很高但是由于土壤条件（主要是土壤酸碱度和氧化还原条件）造成有效性降低而供应不足。在前一种条件下，需要靠补施微量元素肥料，后一种情况下，有时只需改变土壤条件，增加土壤微量元素的有效性，就可增加供应水平。
+  </text>
+  </view>
+  </view>
+
+
+
+</view>
+ 
+<view hidden="{{currentTab!==1}}" class="content2">
+  <view class="ques" bindtap="questap10" wx:if="{{ques10}}" id="ques10"> 
+  <text style="margin-top: 0px;">
+    Q1:  土壤修复过程中的法律法规有哪些？
+  </text>
+  </view>
+
+  <view class="ques_re" bindtap="questap10_rt" wx:if="{{ques10_re}}" > 
+  <text style="margin-top: 0px;">
+    Q1:  土壤修复过程中的法律法规有哪些？
+  </text>
+  </view>
+  <view class="anwser" wx:if="{{ques10_re}}">
+  <view class="answer_part">
+  <text>" 十三五 " 规划首次将加强生态文明建设、美丽中国写入五年规划；国务院印发《土壤污染防治行动计划》 ( 简称 " 土十条 " )；中共中央、国务院发布《关于全面加强生态环境保护坚决打好污染防治攻坚战的意见》；全国人大常委会通过《土壤污染防治法》，土壤污染防治工作最终上升到法律层面。
+  </text>
+  </view>
+  </view>
+
+  <view class="ques" bindtap="questap11" wx:if="{{ques11}}" id="ques11"> 
+  <text>
+    Q2:  发现土壤污染严重怎么办？
+  </text>
+  </view>
+
+  <view class="ques_re" bindtap="questap11_rt" wx:if="{{ques11_re}}"> 
+  <text>
+    Q2:  发现土壤污染严重怎么办？
+  </text>
+  </view>
+  <view class="anwser" wx:if="{{ques11_re}}" style="height: 200px;">
+  <view class="answer_part">
+  <text style="height: 200px;">
+  发现周边存在土壤污染，应尽保护环境的义务，可向环境监察大队、当地环保局等有关部门进行举报，运用法律手段，让政府对引起土壤污染的有关部门或者个人进行惩罚，以保护我们的生存环境。也可以拨打12369环保举报热线电话，向各级环境保护主管部门举报和请求环境保护主管部门依法处理的。
+此外，广大民众也可向媒体反映土壤污染现象,通过媒体电台、报刊等的传媒作用,让政府和更多的群众关注这一问题,促使相关治理工作的开展。
+  </text>
+  </view>
+  </view>
+
+  <view class="ques" bindtap="questap12" wx:if="{{ques12}}" id="ques12"> 
+  <text>
+    Q3:  污水治理排放标准有哪些？
+  </text>
+  </view>
+
+  <view class="ques_re" bindtap="questap12_rt" wx:if="{{ques12_re}}"> 
+  <text>
+    Q3:  污水治理排放标准有哪些？
+  </text>
+  </view>
+  <view class="anwser" wx:if="{{ques12_re}}" style="height: 150px;">
+  <view class="answer_part">
+  <text style="height: 150px;margin-top: -10px;">
+1、排入GB3838类水域（划定的保护区和游泳区除外）和排入GB3097中二类海域的污水，执行一级标准。
+2、排入GB3838中、类水域和排入GB3097中三类海域的污水，执行二级标准。
+3、排入设置二级污水处理厂的城镇排水系统的污水，执行三级标准。
+4、排入未设置二级污水处理厂的城镇排水系。
+  </text>
+  </view>
+  </view>
+
+
+
+
+
+
+
+
+
+
+
+
+</view>
+ 
+
+
+</view>
+

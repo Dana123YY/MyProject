@@ -1,0 +1,78 @@
+<view class='chating-wrapper'>
+<view style="height:270px;">
+  <view class='record-wrapper'>
+    <view>
+      <block wx:for-item='list' wx:for-index='listidx'>
+        <!-- 收 -->
+        <view class="record-chatting-item {{list.kind=='you'?'other':''}}">
+          <view class="record-chatting-item-img"></view>
+          <view class="record-chatting-item-text qst">
+            <view class='qst-ul'>
+              <view class="qst-li">
+              <text>您好，绿洲土壤修复机器人智能助手为您服务!\n</text>
+              <text>请输入你想询问的问题,如:\n</text>
+<text>常见的土壤污染类型有哪些？\n</text>
+<text>土壤污染物有哪些？\n</text>
+<text>怎么判断土壤是否受到了污染？\n</text>
+<text>土壤修复技术有哪些？\n</text>
+<text>土壤的形成因素是什么？\n</text>
+<text>土壤里的物质有什么？\n</text>
+</view>
+            </view>
+          </view>
+        </view>
+        <!-- 发 -->
+        <view class="record-chatting-item {{list.kind=='me'?'self':''}}"  wx:if="{{list.kind=='me'}}">
+          <view class="record-chatting-item-text qst">
+            <view class='qst-ul'>
+              <view class="qst-li">你好哇</view>
+            </view>
+          </view>
+          <view class="record-chatting-item-img"></view>
+        </view>
+      </block>
+    </view>
+  </view>
+</view>
+
+
+ <!--消息展示-->
+<view>
+  <view class='record-wrapper'>
+    <view wx:if="{{current_list.length}}">
+      <block wx:for="{{current_list}}" wx:for-item='list' wx:for-index='listidx'>
+        <!-- 收 -->
+        <view class="record-chatting-item {{list.kind=='you'?'other':''}}" wx:if="{{list.kind=='you'}}">
+
+          <view class="record-chatting-item-text qst">
+            <view class='qst-ul'>
+              <view class="qst-li">{{list.list_ul}}</view>
+            </view>
+          </view>
+        </view>
+        <!-- 发 -->
+        <view class="record-chatting-item {{list.kind=='me'?'self':''}}"  wx:if="{{list.kind=='me'}}">
+          <view class="record-chatting-item-text qst">
+            <view class='qst-ul'>
+              <view class="qst-li">{{list.list_ul}}</view>
+            </view>
+          </view>
+        </view>
+      </block>
+    </view>
+  </view>
+</view>
+</view>
+
+<!--输入框-->
+<view class="chatinput-wrapper {{input_flag?'mb16':''}}">
+  <view class="chatinput-content flex alignC flexSb">
+    <view class="chatinput-img"></view>
+    <view class='chatinput-inputOut'>
+      <input class='chatinput-input' bindinput='inputChange' bindconfirm='inputSend' placeholder='请输入关键词' confirm-type='send' value='{{inputValue}}' bindfocus='inputFocus' bindblur='inputBlue'></input>
+    </view>
+    <view class='chatinput-sendOut'>
+      <view class='chatinput-send' catchtap='inputSend'>发送</view>
+    </view>
+  </view>
+</view>

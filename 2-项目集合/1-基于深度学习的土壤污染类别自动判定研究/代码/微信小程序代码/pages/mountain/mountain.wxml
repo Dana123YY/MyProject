@@ -1,0 +1,38 @@
+<!--pages/mountain/mountain.wxml-->
+<view>
+  <image class="bg-image" mode="aspectFill" src="/images/back3.jpg"></image>
+  <view class="title"> 
+    <text style="font-size: 60rpx;font-weight: 600;">高山草甸土</text> 
+  </view>
+  <view class="line"></view>
+  <view class="title">
+    <text style="font-size: 40rpx;font-weight: 600;">英文名:</text>
+    <text style="font-size: 36rpx;margin-left: 15rpx;">alpine meadow soil</text>
+  </view>
+  <view class="line"></view>
+  <view class="title">
+    <text style="font-size: 40rpx;font-weight: 600;">别称:</text> 
+    <text  style="font-size: 36rpx; margin-left: 15rpx;">草毡土</text>
+  </view>
+  <view class="line"></view>
+  <view class="title">
+    <text style="font-size: 40rpx;font-weight: 600;">分布:</text> 
+    <text style="font-size: 36rpx; margin-left: 15rpx;">高山寒漠土下的高山带，境内祁连山、昆仑山、唐古拉山均有分布。主要分布于高原面上缓丘、山坡、宽谷和盆地等。</text>
+  </view>
+  <view class="line"></view>
+  <view class="title">
+    <text style="font-size: 40rpx;font-weight: 600;">形态特征:</text> 
+    <text style="font-size: 36rpx; margin-left: 15rpx;">地表因常有冻裂和土滑作用而呈层状或小丘状；表层由草根交织成软韧的草皮层</text>
+  </view>
+  <view class="line"></view>
+  <view class="title">
+    <text style="font-size: 40rpx;font-weight: 600;">亚类：</text> 
+    <text style="font-size: 36rpx; margin-left: 15rpx;">高山草甸土、高山草原草甸土、高山灌丛草甸土。</text>
+  </view>
+  <view class="line"></view>
+  <view class="title">
+    <text style="font-size: 40rpx;font-weight: 600;">土壤成分:</text> 
+    <text style="font-size: 36rpx; margin-left: 15rpx;">有明显腐殖质积聚，呈灰棕至黑褐色粒状-扁核状结构。土壤复合胶体属高有机质低复合度型，以松结合态腐殖质为主。粘粒和三二氧化物在剖面中变化不大，粘土矿物以水云母为主，少量高岭石和蛏石。呈酸性至中性反应。土层厚度仅40～50厘米，有明显的融冻微形态特征，底层有季节冻层或多年冻土。</text>
+  </view>
+  <view class="line"></view>
+</view>

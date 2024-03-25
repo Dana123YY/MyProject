@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText":"土壤分布",
+  "navigationBarTextStyle": "black",
+  "usingComponents": {
+    "ec-canvas": "../../ec-canvas/ec-canvas"
+ }
+
+}

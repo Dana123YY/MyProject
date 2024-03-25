@@ -1,0 +1,63 @@
+<view>
+  <view class="box1">
+    <swiper indicator-dots="{{indicatorDots}}" autoplay="true" interval="3000" circular="true"  style='height:{{Height}}'>
+      <swiper-item wx:for="{{imgUrls}}" >
+        <image src='{{item}}' mode="widthFix" class ='img' bindload='imgHeight'></image>
+      </swiper-item>
+    </swiper>
+  </view> 
+  <view class="border1"  bindtap="Onclick1">
+      <image class="picture1" src="/images/type.png" ></image>
+      <text class="text1">
+        土壤类型
+      </text>
+      <view>
+          <image src="/icons/icon/sign.png" class="picture2"></image>
+      </view>
+  </view>
+  <view class="borderl" bindtap="Onclick2">
+    <image class="picture1" src="/images/chemical.png" ></image>
+    <text class="text1" >
+        土壤污染
+    </text>
+    <view>
+      <image src="/icons/icon/sign.png" class="picture2"></image>
+    </view>
+  </view>
+  <view class="borderl" bindtap="Onclick3">
+    <image class="picture1" src="/images/destory.png" ></image>
+    <text  class="text1" >
+      土壤污染危害
+    </text>
+    <view>
+      <image src="/icons/icon/sign.png" class="picture3"></image>
+    </view>
+  </view>
+  <view class="borderl"  bindtap="Onclick5">
+    <image class="picture1" src="/images/technical.png" ></image>
+    <text  class="text1">
+      土壤修复技术
+    </text>
+    <view>
+      <image src="/icons/icon/sign.png" class="picture3"></image>
+    </view>
+  </view>
+  <view class="borderl"  bindtap="Onclick4">
+    <image class="picture1" src="/images/repair.png" ></image>
+    <text  class="text1">
+      土壤修复现状
+    </text>
+    <view>
+      <image src="/icons/icon/sign.png" class="picture3"></image>
+    </view>
+  </view>
+  <view class="borderl"  bindtap="Onclick6">
+    <image class="picture1" src="/icons/tabbar/newsed.png" ></image>
+    <text  class="text1">
+      土壤修复方案
+    </text>
+    <view>
+      <image src="/icons/icon/sign.png" class="picture3"></image>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,26 @@
+<view class='index'>
+  <!-- <view class="search">
+    <text style="color: grey;font-size: 30rpx;">查方案</text>
+  </view> -->
+  <scroll-view-refresh-load class='scroll-view-refresh-load-component' refreshing="{{refreshing}}" bindpulldownrefresh="onPulldownrefresh_SV">
+    <view class='content'>
+      <view class='content-list'>
+        <block wx:for='{{contentNewsList}}'>
+          <view class='list-item' bindtap='viewDetail' data-newsurl='{{item.url}}' data-newstitle='{{item.title}}' data-newsauthor='{{item.author}}'>
+            <view class='list-item-content one-px-border'>
+              <view class='list-item-right'>
+                <view class='article-title'>{{item.title}}</view>
+                <view class='article-source'>{{item.author}}</view>
+              </view>
+            </view>
+          </view>
+        </block>
+      </view>
+    </view>
+    <view class="footer">
+      <view class="footer-component">
+        <component-copyright></component-copyright>
+      </view>
+    </view>
+  </scroll-view-refresh-load>
+</view>
